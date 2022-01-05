@@ -1,0 +1,46 @@
+.container{
+  width: 50%;
+  margin: 0 auto;
+  border: 2px solid black;
+  text-align: center;
+  padding: 5%;
+  overflow-y: scroll; 
+  height:300px;
+  position:relative;
+}
+
+input{
+  padding: 10px;
+  border-radius: 5px;
+  width: 70%;
+}
+
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn {
+  background: #3498db;
+  border-radius: 28px;
+  color: #ffffff;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+#disp{
+  display: inline-block;
+}
+
+#error-container{
+  color: red;
+  margin: 15px;
+}
+
+#message-container{
+  text-align: left;
+  padding: 10px;
+}
